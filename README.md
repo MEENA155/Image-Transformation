@@ -34,6 +34,8 @@ Display all the Transformed images.
 ```python
 Developed By:S. MEENA
 Register Number:2122212400895
+```
+'''
 i)Image Translation
 Translation_matrix=np.float32([[1,0,120],[0,1,120],[0,0,1]])
 Translated_image=cv2.warpPerspective(original_img,Translation_matrix,(col,row))
@@ -97,7 +99,7 @@ plt.ais('off')
 plt.imshow(scaled_img)
 plt.show()
 
-
+'''
 ```
 ## Output:
 ### i)Image Translation
